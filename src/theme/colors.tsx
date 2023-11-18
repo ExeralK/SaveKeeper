@@ -1,0 +1,9 @@
+export const primary = "#F7CE45";
+export const secondary = "#1F2125";
+export const success = "#28a745";
+export const danger = "#dc3545";
+export const warning = "#ffc107";
+export const info = "#17a2b8";
+export const light = "#ffffff";
+export const dark = "#16171B";
+export const grey = "#74726E";

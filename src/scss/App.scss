@@ -1,0 +1,16 @@
+// src/scss/App.scss
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-main {
+  display: flex;
+  flex-grow: 1;
+}

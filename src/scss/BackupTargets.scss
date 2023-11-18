@@ -1,0 +1,88 @@
+// src/scss/MainContent.scss
+
+.backup-targets {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.backup-targets-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.backup-targets-heading {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.files-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.files-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #eee;
+}
+
+.file-info {
+  flex: 1;
+}
+
+.file-name {
+  margin: 0;
+  font-weight: bold;
+}
+
+.file-path {
+  margin: 0;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.file-actions {
+  display: flex;
+  align-items: center;
+
+  button {
+    margin-left: 1em;
+  }
+}
+
+.start-btn,
+.stop-btn,
+.remove-btn {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.add-file-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-left: auto;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.start-btn {
+  background-color: green;
+  color: #fff;
+}
+
+.stop-btn,
+.remove-btn {
+  background-color: red;
+  color: #fff;
+}
